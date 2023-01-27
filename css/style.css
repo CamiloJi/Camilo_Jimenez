@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    height: 100vh;
+    font-family: system-ui;
+    gap: 10px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    border-radius: 10px;
+}
+
+.banner{
+    height: 70%;
+}
+
+#img-header{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.navegador{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(35, 99, 80);
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid;
+    flex: 1;
+    height: 3em;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.prom{
+    border-right: none;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 52vh;
+    gap: 7px;
+}
+
+.arts{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 10px;
+}
+
+.art1{
+    height: 48%;
+    padding: 10px;
+    background-color: rgb(255, 248, 205);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.art1-1{
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    gap: 5px;
+}
+
+#dog1{
+    height: 98%;
+    border-radius: 20px;
+    border: 2px solid;
+}
+
+article>p{
+    display: flex;
+    color: rgb(29, 82, 66);
+    align-items: center;
+}
+
+.art2{
+    height: 48%;
+    padding: 10px;
+    background-color: rgb(255, 248, 205);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.art2-2{
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    gap: 5px;
+}
+
+#dog2{
+    height: 98%;
+    border-radius: 20px;
+    border: 2px solid;
+}
+
+
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(83, 124, 112);
+    width: 30%;
+    gap: 3px;
+    border-radius: 15px;
+}
+
+aside>h4{
+    display: flex;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(21, 58, 47);
+    width: 100%;
+    color: white;
+    height: 40px;
+}
+
+
+#one, #two, #three, #four, #five, #six{
+    padding: 10px;
+    display: flex;
+    gap: 25px;
+}
+
+#oal{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    height: 25px;
+    border: 2px solid rgb(167, 167, 167);
+}
+
+#date{
+    width: 180px;
+    height: 23px;
+    border: 2px solid rgb(167, 167, 167);
+    color: grey;
+}
+
+#time{
+    width: 178px;
+    height: 23px;
+    border: 2px solid rgb(167, 167, 167);
+    color: grey;
+    
+}
+
+#number{
+    width: 178px;
+    height: 23px;
+    border: 2px solid rgb(167, 167, 167);
+    color: grey;
+}
+
+#button{
+    border-radius: 7px;
+    border:2px solid grey;
+    height: 30px;
+    width: 130px;
+    font-weight: bold;
+    color: rgb(80, 80, 80);
+}
+
+footer{
+    border: 1px solid;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(35, 99, 80);
+    color: rgb(201, 201, 201);;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
